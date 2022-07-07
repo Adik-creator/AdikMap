@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Adik Map",
+    "slug": "adikMap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.adikmap",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDDbEM11gpK7UU3BPSWDNljDEuIwm1bClE"
+        }
+      },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package":"com.adikmap",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDDbEM11gpK7UU3BPSWDNljDEuIwm1bClE"
+        }
+
+      },
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION", "FOREGROUND_SERVICE"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+
+
+
+
